@@ -1,17 +1,21 @@
-# GHW-GEE-API
+# MLH-GHW / GEE API: How to use [Japan Aerospace Exploration Agency's ALOS-3](https://global.jaxa.jp/projects/sat/alos3/) dataset in [GEE Python API](https://developers.google.com/earth-engine/tutorials/community/intro-to-python-api)
 
 Project webpage: https://indigowizard.github.io/GHW-GEE-API/
+
+Consider ⭐ starring the project ʕ •ᴥ•ʔ ... ʕ　·ᴥ·ʔ
+
+**IMPORTANT NOTE:** :warning:
+
+The Earth Engine token **expires every 48H**, so after this, the layers won't show up and the webapp may seem like not working, it's not, it's just that I don't update the token from my personal google earth engine account unless you need a live demo, otherwise check the preview section.
+
+## Description:
 
 GHW Earth Engine API Tech Session: I built this quick project for the MLH Global Hack Week: April for APIs 's Earth Engine API tech session.
 
 This is a demonstration on how to use [Japan Aerospace Exploration Agency's ALOS-3](https://global.jaxa.jp/projects/sat/alos3/) dataset (Advanced Land Observing Satellite) which is a 30m resilution global digital surface model (DSM) dataset to calculate terrain elevation of an area and render topography and relief of study area.
-## Important
 
-The project is using Google Earth Engine which requires an authentication toke to the earthengine python api connceted to an approuved earth engine account which in turn is connected to the user's personal google account. The token expires after 48h and so the image layers won't show up on the map untill the user re-authenticate the api to refresh the token.
 
-If nothing is showing on the project's map it means the token has expired and I forgot about refreshing it (if im not using the project activliy) so take a look at the following preview to see what it looks like.
-
-## preview
+## Preview
 
 |JAXA DSM 30m|Hillshade|Elevation|
 |:--:|:--:|:--:|
@@ -20,7 +24,9 @@ If nothing is showing on the project's map it means the token has expired and I 
 |![image](https://user-images.githubusercontent.com/43890965/232165175-f1701243-4847-41ed-8d84-a1adc8df2751.png)|![image](https://user-images.githubusercontent.com/43890965/232165484-3f0a4f8e-b782-4d3b-8440-48c12e9de895.png)|![image](https://user-images.githubusercontent.com/43890965/232165538-1de0538d-8cfc-4f93-866e-cb2df5359aa2.png)|
 
 
-## ressources
+## Ressources
 
 - [JAXA: Utilizing Space Through Satellites](https://global.jaxa.jp/projects/sat/)
 - [Earth Engine Data Catalog: ALOS DSM: Global 30m v3.2](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V3_2)
+- [Earth Engine Python API](https://developers.google.com/earth-engine/tutorials/community/intro-to-python-api)
+
